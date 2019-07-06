@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Hello kilney!"
+name=$(git config user.name)
+echo "Hello "$name!
